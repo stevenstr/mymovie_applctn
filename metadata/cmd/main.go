@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	log.Panicln("Start the movie metadata service...")
+	log.Println("Start the movie metadata service...")
 
 	repo := memory.New()
 	ctrl := metadata.New(repo)
